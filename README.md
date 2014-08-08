@@ -4,6 +4,7 @@ Hakkında
 
 Kullanımı
 =====================
+```php
 <?php
 
 header('Content-type: text/html; charset=utf8');
@@ -24,3 +25,4 @@ $page->end_text = 'Son'; // Son Data Buton text adı
 echo $page->Paginate();
 
 ?>
+```
